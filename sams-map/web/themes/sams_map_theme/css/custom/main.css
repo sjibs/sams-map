@@ -1,0 +1,39 @@
+.field--name-body img{
+    height: auto;
+    width: 180px;
+}
+
+.leaflet-popup-content-wrapper{
+    width: calc(100vw - 64px);
+    max-width: 500px;
+    height: calc(100vw - 64px);
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.leaflet-popup-content{
+    width: calc(100% - 42px) !important;
+    height: calc(100% - 42px) !important;
+}
+
+.leaflet-popup-content-wrapper article .field--name-body{
+    margin-bottom: 20px;
+}
+
+.leaflet-popup-content-wrapper article{
+    max-width: 180px;
+}
+.leaflet-popup-content-wrapper article .field--name-body img{
+    height: auto;
+    width: 100%;
+}
+
+.leaflet-popup-content article{
+    min-width: 100%;
+}
+
+#leaflet-map-view-homepage-page-1{
+    border: 2px solid black;
+    margin: 10px 0px;
+}

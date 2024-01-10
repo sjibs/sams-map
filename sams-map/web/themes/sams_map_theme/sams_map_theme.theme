@@ -1,0 +1,33 @@
+<?php declare(strict_types = 1);
+
+/**
+ * @file
+ * Functions to support theming in the sams-map-theme theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function sams_map_theme_preprocess_html(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+function sams_map_theme_preprocess_page(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function sams_map_theme_preprocess_node(array &$variables): void {
+
+}
+
+function sams_map_theme_form_alter(&$form, $form_state, $form_id) {
+    if($form['#id']=='views-exposed-form-random-location-block-1'){
+        $form['#info']['filter-tid']['label'] = 'Filter by type';
+    }
+}

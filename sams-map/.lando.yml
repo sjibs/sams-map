@@ -1,0 +1,28 @@
+name: sams-map
+recipe: drupal10
+config:
+  webroot: ./web/
+  php: '8.1'
+  composer_version: '2.5.8'
+  via: apache
+  database: mysql
+proxy:
+  mailhog:
+    - mail.sams-map.lndo.site
+  phpmyadmin:
+    - phpmyadmin.sams-map.lndo.site
+services:
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  phpmyadmin:
+    type: phpmyadmin
+  appserver:
+    build:
+      - composer install
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "http://sams-map.lndo.site"
