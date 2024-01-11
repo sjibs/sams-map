@@ -1,0 +1,29 @@
+uuid: 5f2472dc-17a1-4e2b-b0c3-b57bfbbac30d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.random_location
+  module:
+    - system
+    - views
+  theme:
+    - sams_map_theme
+id: sams_map_theme_views_block__random_location_block_1
+theme: sams_map_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:random_location-block_1'
+settings:
+  id: 'views_block:random_location-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,25 @@
+uuid: 7ef7c5df-2d5f-4ad3-8ff4-8057aa3fea73
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a806c1bc-1f86-4134-b247-a3ea0408d4de'
+  module:
+    - block_content
+  theme:
+    - sams_map_theme
+id: sams_map_theme_maplogo
+theme: sams_map_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:a806c1bc-1f86-4134-b247-a3ea0408d4de'
+settings:
+  id: 'block_content:a806c1bc-1f86-4134-b247-a3ea0408d4de'
+  label: 'Map logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: ef1d107d-eb52-4a1a-a47b-f355a331a227
+langcode: en-gb
+status: true
+dependencies: {  }
+name: Type
+vid: type
+description: 'The type of the place'
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 0e03fc31-166a-40ef-8b53-2a93aeea9877
+langcode: en-gb
+status: false
+dependencies:
+  theme:
+    - sams_map_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: sams_map_theme_secondary_local_tasks
+theme: sams_map_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 07ba644e-1a62-4b8f-9718-3c14ab0f90ee
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sams_map_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: sams_map_theme_breadcrumbs
+theme: sams_map_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

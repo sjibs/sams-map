@@ -1,0 +1,20 @@
+uuid: 3da7312f-a2a5-4c57-8d27-1351308fa445
+langcode: en-gb
+status: false
+dependencies:
+  theme:
+    - sams_map_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: sams_map_theme_page_title
+theme: sams_map_theme
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
